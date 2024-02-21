@@ -14,9 +14,12 @@
 </head>
 
 <body>
-
+    
     <div class="container">
         <div class="container__conteudo">
+            <span class="letra__a">
+               <img src="./img/Frame 6.svg" alt="letra a">
+            </span>
             <div class="container__informacoes">
                 <div class="container__texto">
                   <h1>
@@ -26,29 +29,34 @@
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
                   </h1>
-                    <p class="texto__paragrafo">Digite seu texto</p>
+                    <p class="texto__paragrafo">Digite seu texto :</p>
                 </div>
-
-                <textarea id="container__input" name="seu__texto" rows="100" cols="100">
-                </textarea>
-
+                    <textarea id="container__input"              name="seu__texto" rows="100" maxlength="9000" runat="server" 
+                    style="resize: none;
+                           width: 100%; 
+                           height: 200px;">
+                    </textarea>     
                 <div class="container__botoes">
-                    <button onclick="verificarChute()" class="Criptografar">Criptografar</button>
+                    <button onclick="croptografar()" class="Criptografar">Criptografar</button>
 
-                    <button onclick="reiniciarJogo()" id="reiniciar" class="Descriptografar" >Descriptografar</button>
+                    <button onclick="descriptografar()" id="copiar" class="Descriptografar" >Descriptografar</button>
                 </div>
             </div>
-                <span class="container__imagem__pessoa">
-                    <img   src="./img/High quality products 1 1.svg" alt="Uma pessoa olhando para por uma lupa" />
-
-                    <p class="container__rodape__pessoa">
-
-                    </p>
-                </span>
+                <section class="container__imagem__pessoa">
+                    <div>
+                        <img   src="./img/High quality products 1 1.svg" alt="Uma pessoa olhando para por uma lupa" />
+                        <span class="container__rodape__pessoa">
+                            
+                        </span>
+                    </div>  
+                </section>
     
         </div>
     </div>
-
+    <div class="rodape" >
+        <footer class="github"> <img src="./img/github.png"   alt="github"   > <a href="https://github.com/luciano-vtn" target="_blank">Dev. Luciano-Vtn</a>
+        </footer>
+    </div>
     <script src="app.js" defer></script>
 </body>
 

@@ -1,4 +1,20 @@
-let listaDeNumerosSorteados = [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
@@ -56,3 +72,4 @@ function reiniciarJogo() {
 
 
 
+ */
