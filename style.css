@@ -63,7 +63,7 @@ body::before {
     background-color: #fff;
     color: #0c53a8;
     padding: 1rem;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
@@ -73,7 +73,7 @@ body::before {
     gap: 2em;
 }
 
-.Criptografar {
+.criptografar {
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
@@ -84,7 +84,7 @@ body::before {
     margin-top: 2rem;
 }
 
-.Descriptografar{
+.descriptografar{
     border-radius: 16px;
     background: #425872;
     padding: 16px 24px;
@@ -137,10 +137,6 @@ button {
 .texto__paragrafo {
     font-size: 32px;
     font-weight: 400;
-}
-
-button:disabled {
-    background-color: rgb(47, 55, 80);
 }
 
 .rodape {

@@ -1,7 +1,34 @@
 
+const recebe__texto = document.querySelector('container__input');
+const botoes = document.querySelector('container__botoes');
 
+let matrizCode = [
+    ["a", "ai"],
+    ["e", "enter"],
+    ["i", "imes"],
+    ["o", "ober"],
+    ["u", "ufat"] 
+];
 
+function criptografar(string) {
+    const resultado = string
+    .replaceAll("a", "ai")
+    .replaceAll("e", "enter")
+    .replaceAll("i", "imes")
+    .replaceAll("o", "ober")
+    .replaceAll("u", "ufat");
+    return resultado;
+}
 
+function descriptografar(string) {
+    const resultado = string
+    .replaceAll("ai", "a")
+    .replaceAll("enter", "e")
+    .replaceAll("imes", "i")
+    .replaceAll("ober", "o")
+    .replaceAll("ufat", "u");
+    return resultado;
+}
 
 
 
