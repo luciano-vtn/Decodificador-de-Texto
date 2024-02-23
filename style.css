@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(./img/leptop.jpg);
+    background-image: url(./img/img__background.jpg);
     height: 100vh;
     display: flex;
     align-items: center;
