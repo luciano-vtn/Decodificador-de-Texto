@@ -1,14 +1,6 @@
 
 const recebe__texto = document.querySelector('container__input');
-const botoes = document.querySelector('container__botoes');
-
-let matrizCode = [
-    ["a", "ai"],
-    ["e", "enter"],
-    ["i", "imes"],
-    ["o", "ober"],
-    ["u", "ufat"] 
-];
+const criptografar = document.querySelector('criptografar');
 
 function criptografar(string) {
     const resultado = string
@@ -29,10 +21,6 @@ function descriptografar(string) {
     .replaceAll("ufat", "u");
     return resultado;
 }
-
-
-
-
 
 
 

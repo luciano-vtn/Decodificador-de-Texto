@@ -14,8 +14,7 @@
 </head>
 
 <body>
-    
-    <div class="container">
+        <div class="container">
         <div class="container__conteudo">
             <span class="letra__a">
                <img src="./img/Frame 6.svg" alt="letra a">
@@ -35,13 +34,18 @@
                     style="resize: none;
                            width: 100%; 
                            height: 200px;">
-                    </textarea>     
+                    </textarea>  
+                    <div class="orientacao">
+                        Apenas letras minúsculas e sem acento.
+                    </div>    
                 <div class="container__botoes">
                     <button onclick="btnCriptografar()" class="criptografar">Criptografar</button>
 
-                    <button onclick="btnDescriptografar()" id="copiar" class="descriptografar" >Descriptografar</button>
-                </div>
+                    <button onclick="btnDescriptografar()" class="descriptografar" >Descriptografar</button>
+                </div> 
+                                 
             </div>
+            
                 <section class="container__imagem__pessoa">
                     <div>
                         <img   src="./img/img__pessoa_lupa.svg" alt="Uma pessoa olhando para por uma lupa" />
@@ -50,11 +54,15 @@
                                 Nenhuma mensagem encontrada <br><br>
                                 Digite um texto que você deseja criptografar  <br> ou descriptografar.
                         </span>
+                        <div class="botao__copiar__local">
+                            <button class="botao__copiar">Copiar</button>
+                        </div>
                     </div>  
                 </section>
     
         </div>
     </div>
+    
     <div class="rodape" >
         <footer> <img src="./img/github.png" alt="github"   > <a class="link__git" href="https://github.com/luciano-vtn" target="_blank">Dev. Luciano-Vtn</a>
         </footer>
