@@ -42,17 +42,19 @@
                     <button onclick="btnCriptografar()" class="criptografar">Criptografar</button>
 
                     <button onclick="btnDescriptografar()" class="descriptografar" >Descriptografar</button>
-                </div> 
-                                 
+                </div>              
             </div>
-            
                 <section class="container__imagem__pessoa">
                     <div>
                         <img   src="./img/img__pessoa_lupa.svg" alt="Uma pessoa olhando para por uma lupa" />
                         <p></p>
                         <span class="container__rodape__pessoa">
-                                Nenhuma mensagem encontrada <br><br>
-                                Digite um texto que você deseja criptografar  <br> ou descriptografar.
+                            <textarea           id="container__input_resultado"           name="seu__texto" rows="100" maxlength="9000" 
+                            runat="server" 
+                                style="resize: none;
+                                       width: 105%; 
+                                       height: 195px;">
+                            </textarea>  
                         </span>
                         <div class="botao__copiar__local">
                             <button class="botao__copiar">Copiar</button>

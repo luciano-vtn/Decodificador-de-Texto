@@ -44,6 +44,15 @@ body {
     padding: 5rem 10rem ;
 }
 
+.texto__paragrafo {
+    color: #f7f7f7;
+    text-decoration: solid;
+    margin: 1rem 0rem 1.8rem;
+}
+
+.container__texto {
+    margin: 20px 8px 16px 16px;
+}
 
 #container__input {
     scrollbar-color: #042744 #54f0c1 ;
@@ -53,7 +62,7 @@ body {
     border-radius: 16px;
     background-color: #fff;
     color: #0c53a8;
-    padding: 1rem;
+    padding: 1rem 2rem;
     font-size: 30px;
     font-weight: 700;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -69,6 +78,7 @@ body {
 
 }
 
+
 .container__botoes {
     display: flex;
     gap: 2em;
@@ -76,7 +86,7 @@ body {
 
 .criptografar {
     border-radius: 16px;
-    background: #1875E8;
+    background: #569aec;
     padding: 16px 24px;
     width: 100%;
     font-size: 24px;
@@ -87,7 +97,7 @@ body {
 
 .descriptografar{
     border-radius: 16px;
-    background: #425872;
+    background: #6971dd;
     padding: 16px 24px;
     width: 100%;
     font-size: 24px;
@@ -95,20 +105,14 @@ body {
     border: none;
     margin-top: 2rem;
 }
-.texto__paragrafo {
-    color: #f7f7f7;
-    text-decoration: solid;
-}
 
-.container__texto {
-    margin: 20px 8px 16px 16px;
-}
 
 .container__imagem__pessoa{
+    height: 40%;
     background-image: url(./img/fundo_foto_pessoa_2.jpg);
     border-radius: 24px;
-    margin: 6px 6px 3px 6px;
-    padding: 2rem 2rem 15rem;
+    margin: 2px 6px 3px 6px;
+    padding: 1rem 2rem 6rem 8rem;
    
 }
 
@@ -117,6 +121,31 @@ body {
     font-size: 110%;
     color: #f0ebea;
     margin: 10px 6px 3px 6px;
+}
+
+#container__input_resultado{
+    scrollbar-color: #042744 #54f0c1 ;
+    width: 50%;
+    height: 60px;
+    border: 8px solid #b1e0dc;
+    border-radius: 16px;
+    background-color: #fff;
+    color: #032752;
+    padding: 3rem;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+.botao__copiar{
+    justify-content: center;
+    border-radius: 16px;
+    background: #425872;
+    padding: 20px 24px;
+    width: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin: 2rem;
 }
 
 .container__texto-azul {
