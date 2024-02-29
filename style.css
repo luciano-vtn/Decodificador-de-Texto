@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -54,7 +55,7 @@ body {
     margin: 20px 8px 16px 16px;
 }
 
-#container__input {
+.container__input {
     scrollbar-color: #042744 #54f0c1 ;
     width: 50%;
     height: 60px;
@@ -65,19 +66,17 @@ body {
     padding: 1rem 2rem;
     font-size: 30px;
     font-weight: 700;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+   
 }
 
 .orientacao{
     color: #e7e406;
     font-size:  28px;
     font-weight: 400;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
     padding-top: 4rem;
     margin: 2px 0px 0px 16px;
 
 }
-
 
 .container__botoes {
     display: flex;
@@ -117,13 +116,12 @@ body {
 }
 
 .container__rodape__pessoa{
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 110%;
     color: #f0ebea;
     margin: 10px 6px 3px 6px;
 }
 
-#container__input_resultado{
+.container__input_resultado{
     scrollbar-color: #042744 #54f0c1 ;
     width: 50%;
     height: 60px;
@@ -134,7 +132,6 @@ body {
     padding: 3rem;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 .botao__copiar{
     justify-content: center;
@@ -152,9 +149,7 @@ body {
     color: #eaecee;
 }
 
-
 h1 {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 72px;
     padding-bottom: 3rem;
 }
