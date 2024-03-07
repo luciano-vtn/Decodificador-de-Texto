@@ -1,6 +1,6 @@
 
 const textDaArea = document.querySelector(".container__input");
-const resultadoText = document.querySelector(".container__input_resultado");
+const resultadoTexto = document.querySelector(".container__input_resultado");
 const copiarTexto = document.querySelector(".botao__copiar");
 
 
@@ -24,17 +24,17 @@ function descriptografar(string) {
 
 function btnCriptografar(){
     const textoEncriptado = criptografar(textDaArea.value);
-    resultadoText.value = textoEncriptado;
+    resultadoTexto.value = textoEncriptado;
     textDaArea.value = "";
 }
 
 function btnDescriptografar(){
     const textoDesencriptado = descriptografar(textDaArea.value);
-    resultadoText.value = textoDesencriptado;
+    resultadoTexto.value = textoDesencriptado;
     textDaArea.value = "";
 }
 
 function btnCopiar() {
-    textDaArea.value = resultadoText.value;
-    resultadoText.value = "";
+    textDaArea.value = resultadoTexto.value;
+    resultadoTexto.value = "";
 };
